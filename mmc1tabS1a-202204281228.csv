@@ -1,0 +1,102 @@
+"Case","Dx.Age","Dx.Date","Dx.SzPrim.cm","Dx.WasPrimExcis","Dx.SzMetsLargest.cm","Dx.SzMetsRange.cm","RPP.remark","RPP.Date","RPP.SzPanc.cm","MR.remark","MR.Date","MR.SzMetsLargest.cm","MP.remark","MP.Date","MP.SzMetsLargest.cm","Aut.DateDeath","Aut.Panc","Aut.SzReTumorPanc","Aut.SzPrim.cm","Aut.MetsBurden","Aut.MeanSzMets.cm","Aut.SzMetsRange.cm","Aut.minSzMetsRange.cm","Aut.maxSzMetsRange.cm"
+"1",84,1995-05-05,6,"No",NA,"x","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,1995-10-26,"Present (Not Resected)",NA,6,"000to10",1,"0.5-2.8",0.5,2.8
+"2",62,2002-12-16,3,"No",2,"1-2","Yes",2003-01-27,7,"Yes, increase in size and number in liver",2003-01-27,5,"x",NA,NA,2003-05-26,"Present (Not Resected)",NA,4,"100sto1000s",0.3,"0.2-2",0.2,2
+"3",67,2002-07-25,2,"No",2,"1-2","Yes",2003-05-12,4,"Yes",2003-03-19,2.9,"Yes, lungs and increase in size and number in liver",2003-05-12,5,2003-06-24,"Present (Not Resected)",NA,4,"011to100",3,"1.0-5.0",1,5
+"5",47,2002-12-02,5,"No",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2003-08-15,"Present (Not Resected)",NA,5,"000to10",NA,NA,NA,NA
+"6",57,2003-01-15,4,"No",1,"0.3-1","No",NA,NA,"No",NA,NA,"Yes",2003-06-23,2,2003-09-01,"Present (Not Resected)",NA,5,"100sto1000s",0.5,"0.2-2.0",0.2,2
+"7",67,1999-11-01,8,"No",NA,"x","No",NA,NA,"Yes, bladder dome and pelvis",2002-11-01,3,"Yes, bladder",2003-01-06,3.2,2003-10-14,"Present (Not Resected)",NA,10,"000to10",1,"0.5-3.5",0.5,3.5
+"8",60,2003-07-05,5,"No",2.5,"1-2.5","No",NA,NA,"No",NA,NA,"Yes, increase in number on lungs",2003-09-25,2.5,2003-10-26,"Present (Not Resected)",NA,5,"011to100",1.5,"1.0-2.5",1,2.5
+"9",56,2002-11-01,3,"No",NA,"no data","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2003-07-30,"Present (Not Resected)",NA,4,"011to100",1,"0.5-2.0",0.5,2
+"10",60,2003-11-19,6,"No",5,"x","No",NA,NA,"No",NA,NA,"No",NA,NA,2003-12-16,"Present (Not Resected)",NA,10,"011to100",2,"1.0-4.0",1,4
+"11",60,2001-04-30,4,"No",NA,"x","Yes",2002-05-02,NA,"Yes, peritoneum",2002-07-10,NA,"no data",NA,NA,2003-12-14,"Present (Not Resected)",NA,5,"000to10",NA,NA,NA,NA
+"12",57,2003-05-01,5,"No",NA,"x","Yes",2003-09-29,7,"Yes",2003-09-29,1.5,"No",NA,NA,2003-12-16,"Present (Not Resected)",NA,9,"000to10",1.5,"0.5-2",0.5,2
+"13",59,2003-06-01,5,"No",2,"1-2.0","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2004-01-15,"Present (Not Resected)",NA,15,"000to10",1.5,"1.0-3.0",1,3
+"14",59,2003-05-09,4,"No",2,"1-2.0","Yes",2003-10-29,4.6,"Yes, increase in number and size in liver",2003-10-29,3.2,"Yes, increase in number and size in liver",2004-01-20,4.6,2004-05-11,"Present (Not Resected)",NA,8,"011to100",1,"0.5-5.0",0.5,5
+"15",65,2003-10-13,7,"No",NA,"x","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2003-12-29,"Present (Not Resected)",NA,9,"000to10",2,"1.0-3.0",1,3
+"16",63,2000-08-01,4,"Yes",NA,"x","Yes",2001-10-22,1.7,"Yes, peritoneum",2001-10-22,0.3,"Yes, increase in number",2003-07-24,NA,2003-12-28,"Recurred After Surgery",2,NA,"011to100",0.5,"0.2-1.0",0.2,1
+"17",50,2004-02-10,4,"No",NA,"x","No",NA,NA,"No",NA,NA,"No",NA,NA,2004-07-05,"Present (Not Resected)",NA,4,"100sto1000s",1,"0.5-2.5",0.5,2.5
+"18",67,2000-12-26,4,"No",NA,"x","Yes",NA,NA,"Yes, lung and spine",2004-05-12,NA,"no data",NA,NA,2004-06-18,"Present (Not Resected)",NA,6,"011to100",1,"0.5-1.5",0.5,1.5
+"19",50,2003-04-28,6,"Yes",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2004-07-21,"Absent (Resected)",0,0,"000to10",NA,NA,NA,NA
+"20",53,2002-09-17,2.4,"Yes",NA,"x","Yes",2004-03-09,3.5,"Yes, liver",2003-02-10,1.8,"x",NA,NA,2004-08-06,"Recurred After Surgery",NA,8,"011to100",1.5,"1.0-2.8",1,2.8
+"21",66,2002-09-27,3,"Yes",NA,"x","Yes",2004-10-06,3,"Yes, liver",2003-04-03,1,"Yes",2003-06-03,2,2004-10-09,"Recurred After Surgery",3,NA,"011to100",1.5,"0.5-3.5",0.5,3.5
+"22",51,2004-05-13,4,"No",NA,"x","No",NA,NA,"Yes, multiple in liver",2005-01-04,1.4,"No",NA,NA,2005-01-28,"Present (Not Resected)",NA,4,"100sto1000s",0.5,"0.2-1.5",0.2,1.5
+"23",82,2003-08-01,2.6,"No",0.6,"0.5-0.6","Yes",2004-06-30,3.8,"No",NA,NA,"No",NA,NA,2005-02-04,"Present (Not Resected)",NA,7,"100sto1000s",0.5,"0.2-2.0",0.2,2
+"24",61,2003-01-22,1.5,"Yes",NA,"x","Yes",NA,NA,"Yes, multiple in liver",2003-03-27,2,"Yes, increase in size and number in liver",2003-05-27,4.6,2005-02-05,"Recurred After Surgery",1,NA,"100sto1000s",0.5,"0.2-5.0",0.2,5
+"25",59,2003-03-03,3,"Yes",NA,"x","Yes",2004-04-19,4.4,"No",NA,NA,"x",NA,NA,2005-02-10,"Recurred After Surgery",6,NA,"000to10",NA,NA,NA,NA
+"26",48,2004-02-01,3,"No",NA,"x","No",NA,NA,"Yes, multiple in liver, lungs, mesentery, adrenal, and osseous structures",2004-12-22,9.5,"Yes, increase in size",2005-01-19,14,2005-02-16,"Present (Not Resected)",NA,3,"011to100",4,"2.0-14.0",2,14
+"27",54,2004-09-01,4,"No",4,"0.5-4","No",NA,NA,"No",NA,NA,"No",NA,NA,2005-03-06,"Present (Not Resected)",NA,4,"011to100",2,"0.5-4.0",0.5,4
+"28",65,1997-06-01,6,"No",NA,"x","Yes",2004-02-06,11,"Yes, lungs",2004-02-06,0.5,"Yes",2004-07-06,1,2005-03-12,"Present (Not Resected)",NA,11,"100sto1000s",0.5,"0.2-1.5",0.2,1.5
+"29",72,2004-09-02,4,"No",2,"1-2","Yes",2005-03-01,6.5,"No",NA,NA,"Yes, increase in size and number in liver",2005-03-01,4,2005-04-16,"Present (Not Resected)",NA,6,"011to100",1.5,"1.0-4.0",1,4
+"30",51,2003-03-10,2.2,"Yes",NA,"x","Yes",2004-11-03,5,"Yes, lung",2004-11-03,1.5,"x",NA,NA,2005-07-09,"Recurred After Surgery",4,NA,"011to100",2,"1-10",1,10
+"31",64,2005-09-14,4,"No",5,"0.5-5","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2005-10-20,"Present (Not Resected)",NA,4,"100sto1000s",1,"0.5-5.0",0.5,5
+"32",81,2005-07-20,3,"No",NA,"x","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2005-10-20,"Present (Not Resected)",NA,3,"100sto1000s",0.3,"0.1-1.3",0.1,1.3
+"33",64,2005-10-25,4,"No",1.3,"1.3","No",NA,NA,"No",NA,NA,"x",NA,NA,2005-11-17,"Present (Not Resected)",NA,4,"000to10",0.7,"0.5-1.3",0.5,1.3
+"34",59,2003-08-13,3,"No",NA,"x","Yes",2005-10-13,6.1,"Yes, lungs",2005-06-07,0.47,"Yes, lung met",2005-10-13,1.1,2005-11-23,"Present (Not Resected)",NA,6,"000to10",0.7,"0.5-1.0",0.5,1
+"36",54,2005-08-01,6,"Yes",NA,"x","Yes",NA,NA,"Yes",NA,NA,"x",NA,NA,2006-03-15,"Recurred After Surgery",5,NA,"100sto1000s",1,"0.1-4.5",0.1,4.5
+"38",51,2005-01-01,3,"No",1,"0.5-1.0","No",NA,NA,"Yes, lungs",2005-12-01,0.5,"No",NA,NA,2006-04-10,"Present (Not Resected)",NA,5,"100sto1000s",1,"0.1-2.5",0.1,2.5
+"40",36,2004-12-01,3,"No",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2006-04-27,"Present (Not Resected)",NA,3.7,"000to10",NA,NA,NA,NA
+"41",82,2003-05-30,1.5,"Yes",NA,"x","Yes",2005-11-05,NA,"Yes, peritoneum",2005-01-19,2.1,"No",NA,NA,2006-04-18,"Recurred After Surgery",6,NA,"000to10",1,"0.2-3.0",0.2,3
+"42",54,2005-05-16,4,"No",NA,"x","Yes",2005-06-14,4.7,"Yes, liver",2005-06-14,0.6,"Yes, liver",2005-08-01,0.8,2006-05-10,"Present (Not Resected)",NA,5,"011to100",3,"0.5-10",0.5,10
+"43",85,2006-03-27,5,"No",6,"0.5-6","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2006-05-16,"Present (Not Resected)",NA,5,"100sto1000s",1,"0.1-6.0",0.1,6
+"44",50,2005-07-28,2,"Yes",NA,"x","Yes",2006-03-23,1,"Yes, liver",2006-03-23,2.6,"No",NA,NA,2006-05-29,"Recurred After Surgery",2.4,NA,"100sto1000s",0.7,"0.1-3.0",0.1,3
+"45",66,2004-06-01,2,"Yes",NA,"x","Yes",2004-12-22,2,"Yes, lymph nodes",2005-12-28,1,"no data",NA,NA,2006-06-12,"Recurred After Surgery",6,NA,"000to10",1,"0.5-2.0",0.5,2
+"46",51,2005-12-26,5.9,"No",NA,"x","No",NA,NA,"Yes, liver",2006-03-23,1.9,"no data",NA,NA,2006-07-12,"Present (Not Resected)",NA,6,"100sto1000s",1,"0.2-2.5",0.2,2.5
+"47",49,2006-02-22,4.5,"No",2,"0.5-2","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2006-06-30,"Present (Not Resected)",NA,4,"100sto1000s",1,"0.2-2.5",0.2,2.5
+"48",59,2002-02-26,2,"Yes",NA,"x","Yes",2005-06-01,1.6,"Yes, lung and hilar lymph node",2004-03-30,1.1,"Yes, increase in size and number in lungs",2005-06-01,1.5,2006-07-11,"Recurred After Surgery",7,NA,"000to10",0.5,"0.2-1.0",0.2,1
+"49",68,2006-03-01,5,"No",NA,"no data","No",NA,NA,"No",NA,NA,"No",NA,NA,2006-07-18,"Present (Not Resected)",NA,5,"100sto1000s",1,"0.2-3",0.2,3
+"50",66,2006-02-06,3.5,"No",NA,"x","No",NA,NA,"Yes, liver",2006-05-19,1,"No",NA,NA,2006-07-24,"Present (Not Resected)",NA,5,"100sto1000s",1,"0.2-1.5",0.2,1.5
+"52",66,2005-03-01,4,"No",NA,"x","Yes",2005-09-28,NA,"No",NA,NA,"x",NA,NA,2006-08-10,"Present (Not Resected)",NA,7,"000to10",NA,NA,NA,NA
+"53",57,2005-02-01,3,"No",NA,"x","no data",NA,NA,"Yes, lung (these regressed in later scans)",2005-10-28,0.9,"x",NA,NA,2006-08-30,"Present (Not Resected)",NA,10,"000to10",NA,NA,NA,NA
+"54",81,2002-10-01,3,"Yes",NA,"x","Yes",2005-12-14,3.3,"No",NA,NA,"No",NA,NA,2006-09-24,"Absent (Treated)",0,NA,"000to10",NA,NA,NA,NA
+"55",58,2006-03-03,2.5,"No",1.2,"1.2","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2006-10-02,"Present (Not Resected)",NA,3,"100sto1000s",0.7,"1-1.5",1,1.5
+"56",54,2006-06-01,4.4,"No",NA,"x","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2006-10-15,"Present (Not Resected)",NA,5,"000to10",1,"1.0-1.0",1,1
+"57",64,2006-08-01,4.3,"No",3,"1.0-3","Yes",2006-09-06,5.3,"No",NA,NA,"Yes",2007-09-06,4,2006-11-04,"Present (Not Resected)",NA,6,"100sto1000s",1,"0.1-4.0",0.1,4
+"58",55,2003-07-01,3.1,"No",NA,"x","Yes",2004-01-26,5.1,"no data",NA,NA,"No",NA,NA,2006-11-16,"Present (Not Resected)",NA,6,"011to100",0.5,"0.3-1.6",0.3,1.6
+"60",47,2006-06-09,4,"No",NA,"x","No",NA,NA,"Yes, liver",2006-07-24,1.2,"No",NA,NA,2006-12-05,"Present (Not Resected)",NA,4,"100sto1000s",0.5,"0.3-2.0",0.3,2
+"61",42,2006-04-06,3.8,"No",3.4,"1.3-3.4","No",NA,NA,"No",NA,NA,"Yes",NA,4.7,2006-12-28,"Present (Not Resected)",NA,4,"100sto1000s",2,"1-6",1,6
+"63",69,2006-05-09,2.8,"Yes",NA,"x","No",NA,NA,"Yes",2006-12-22,0.5,"x",NA,NA,2007-02-23,"Absent (Resected)",NA,NA,"011to100",0.2,"0.1-0.5",0.1,0.5
+"64",74,2006-06-17,3.5,"Yes",NA,"x","No",NA,NA,"Yes",2006-09-25,0.5,"no data",NA,NA,2007-03-02,"Absent (Resected)",NA,NA,"011to100",0.5,"0.2-2.0",0.2,2
+"65",72,2006-03-28,3.6,"No",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2007-03-29,"Present (Not Resected)",NA,4,"000to10",NA,NA,NA,NA
+"66",74,2004-03-01,2.5,"Yes",NA,"x","Yes",2006-09-14,4.5,"Yes, lung",2006-09-14,1,"no data",NA,NA,2007-04-17,"Recurred After Surgery",4,NA,"100sto1000s",0.8,"0.5-1.5",0.5,1.5
+"67",90,2005-03-01,6.5,"Yes",NA,"x","No",NA,NA,"Yes, peritoneum",2006-05-01,1,"no data",NA,NA,2007-04-18,"Absent (Resected)",NA,NA,"100sto1000s",0.5,"0.5-1.5",0.5,1.5
+"68",56,2006-05-01,7,"No",1,"0.5-1","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2007-04-18,"Present (Not Resected)",NA,9,"100sto1000s",1,"0.3-2.0",0.3,2
+"69",69,2007-02-01,6.5,"No",3.6,"1.5-3.6","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2007-06-04,"Present (Not Resected)",NA,6,"011to100",2,"1.5-4",1.5,4
+"70",78,2007-05-01,2.4,"No",2.5,"2.5","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2007-06-05,"Present (Not Resected)",NA,4,"000to10",2.5,"1.0-2.5",1,2.5
+"72",78,2004-06-01,4,"Yes",NA,"x","Yes",2005-01-04,2,"No",NA,NA,"No",NA,NA,2007-09-12,"Recurred After Surgery",2,NA,"000to10",NA,NA,NA,NA
+"73",77,2006-12-01,3.2,"No",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2007-10-01,"Present (Not Resected)",NA,3.5,"000to10",0.5,"0.5-0.5",0.5,0.5
+"74",76,2003-05-01,3.5,"Yes",NA,"x","Yes",2005-12-08,3,"Yes",2006-02-14,1.4,"Yes",2006-06-16,3,2007-10-10,"Recurred After Surgery",3,NA,"011to100",2,"1-5.5",1,5.5
+"76",70,2005-04-01,3,"No",NA,"x","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2007-10-12,"Present (Not Resected)",NA,4,"000to10",NA,NA,NA,NA
+"77",84,2007-07-02,2.6,"No",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2007-10-19,"Present (Not Resected)",NA,2.5,"000to10",NA,NA,NA,NA
+"78",76,2007-03-09,3.8,"No",1,"x","Yes",2007-07-03,5.1,"No",NA,NA,"Yes",2007-04-09,1.3,2007-10-22,"Present (Not Resected)",NA,NA,"011to100",NA,NA,NA,NA
+"80",36,2007-04-01,4.2,"No",2.6,"1.5-2.6","No",NA,NA,"No",NA,NA,"no data",NA,NA,2007-12-04,"Present (Not Resected)",NA,6,"011to100",2,"0.5-3",0.5,3
+"81",53,2005-09-14,1.8,"Yes",NA,"x","Yes",2007-08-30,1.7,"Yes, multiple in liver",2007-08-28,7.6,"No",NA,NA,2007-12-04,"Recurred After Surgery",3,NA,"100sto1000s",2,"1-8",1,8
+"82",60,2007-03-01,4.5,"Yes",1,"0.5-1","No",NA,NA,"Yes, liver and bladder",2007-09-28,3.3,"no data",NA,NA,2007-12-07,"Recurred After Surgery",NA,NA,"011to100",2,"0.5-3",0.5,3
+"83",55,2006-06-01,6,"Yes",NA,"x","Yes",2007-06-08,3.8,"Yes, liver",2007-06-08,1,"x",NA,NA,2007-12-10,"Recurred After Surgery",5,NA,"011to100",1.5,"1-3",1,3
+"85",57,2006-07-12,2.5,"No",3.4,"0.5-3.4","Yes",2007-04-30,3.2,"Yes, lung",2007-02-01,0.8,"Yes",2007-04-30,3.7,2008-01-27,"Present (Not Resected)",NA,6,"000to10",1.5,"1-4",1,4
+"86",56,2007-07-06,1.9,"No",0.7,"0.5-0.7","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2008-02-04,"Present (Not Resected)",NA,2.8,"011to100",1,"0.7-1.5",0.7,1.5
+"87",61,2006-03-01,2.5,"No",0.2,"0.2","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2008-03-08,"Present (Not Resected)",NA,4,"100sto1000s",1,"0.5-2",0.5,2
+"88",64,2007-01-04,3.9,"No",NA,"x","no data",NA,NA,"No",NA,NA,"x",NA,NA,2008-03-09,"Present (Not Resected)",NA,10,"000to10",NA,NA,NA,NA
+"90",88,2008-05-01,3.2,"No",NA,"no data","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2008-05-21,"Present (Not Resected)",NA,4,"100sto1000s",1.5,"0.5-3",0.5,3
+"92",54,2005-01-13,2,"No",0.7,"0.2-0.7","Yes",2007-08-22,2.9,"No",NA,NA,"Yes",2007-08-22,2.7,2008-06-27,"Present (Not Resected)",NA,5,"100sto1000s",1,"0.2-3.0",0.2,3
+"93",74,2008-03-13,7,"No",3.5,"1-3.5","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2008-07-16,"Present (Not Resected)",NA,8,"100sto1000s",1.5,"0.3-5",0.3,5
+"95",79,2008-03-05,4.2,"No",1.8,"0.5-1.8","No",NA,NA,"no data",NA,NA,"no data",NA,NA,2008-09-19,"Present (Not Resected)",NA,4,"100sto1000s",1,"0.3-3",0.3,3
+"98",68,2007-07-25,4,"No",1,"0.3-1.5","no data",NA,NA,"No",NA,NA,"no data",NA,NA,2008-10-16,"Present (Not Resected)",NA,5.5,"100sto1000s",1.5,"0.5-2.5",0.5,2.5
+"105",64,2008-11-12,4,"No",NA,"x","No",NA,NA,"No",NA,NA,"No",NA,NA,2009-02-15,"Present (Not Resected)",NA,4,"000to10",0.5,"0.3-0.8",0.3,0.8
+"106",71,2006-08-01,3.9,"No",NA,"x","No",NA,NA,"No",NA,NA,"x",NA,NA,2009-02-25,"Present (Not Resected)",NA,4.5,"000to10",NA,NA,NA,NA
+"107",72,2006-02-06,3.1,"No",NA,"x","Yes",2008-09-10,4.5,"Yes, liver",2008-09-30,4.9,"Yes, increase in size and number in liver",2008-12-09,5.7,2009-02-26,"Present (Not Resected)",NA,6,"000to10",6,NA,NA,NA
+"112",53,2008-10-27,4.2,"No",1,"0.5-1.5","Yes",2009-03-19,5.5,"No",NA,NA,"Yes",2009-03-16,2.5,2009-05-01,"Present (Not Resected)",NA,6,"011to100",1.5,"0.2-3",0.2,3
+"113",67,2007-07-14,3,"No",NA,"x","Yes",2009-02-24,4.5,"Yes",2009-02-24,0.3,"Yes",2009-03-03,0.8,2009-04-28,"Present (Not Resected)",NA,5,"000to10",0.5,"0.3-1.0",0.3,1
+"114",85,2006-05-20,2.3,"No",NA,"x","No",2008-07-03,2.3,"No",NA,NA,"No",NA,NA,2009-05-03,"Present (Not Resected)",NA,3,"000to10",NA,NA,NA,NA
+"115",57,2006-11-30,2.2,"Yes",NA,"x","Yes",2008-10-21,2.3,"Yes, lung",2008-10-21,0.9,"no data",NA,NA,2009-05-20,"Recurred After Surgery",4,NA,"100sto1000s",1.5,"0.5-2.5",0.5,2.5
+"116",65,2008-04-16,3,"Yes",NA,"x","Yes",2009-01-12,2,"Yes, liver",2009-01-12,0.8,"",NA,NA,2009-06-17,"Recurred After Surgery",4,NA,"011to100",2,"0.5-4.5",0.5,4.5
+"117",50,2007-06-06,5.5,"Yes",NA,"x","No",NA,NA,"Yes, liver",2007-11-08,0.8,"Yes, liver",2008-01-03,1.5,2009-07-08,"Resected (Total Pancreatectomy)",NA,NA,"100sto1000s",1,"0.2-5.0",0.2,5
+"118",65,2008-08-04,3.3,"No",NA,"x","No",2008-12-03,3.3,"Yes, liver",2009-04-30,1,"",NA,NA,2009-07-17,"Present (Not Resected)",NA,NA,"011to100",1,"0.5-2.0",0.5,2
+"119",69,2007-08-02,2.5,"Yes",NA,"x","Yes",2008-04-14,2.8,"Yes, liver and lungs",2008-04-14,0.9,"",NA,NA,2009-08-04,"Recurred After Surgery",3,NA,"100sto1000s",1,"0.5-2.5",0.5,2.5
+"120",65,2008-09-26,6.5,"No",2,"1-2","No",NA,NA,"Yes, lungs",2010-04-08,1.2,"Yes",2009-03-17,2.3,2010-04-20,"Present (Not Resected)",NA,7,"100sto1000s",1,"0.5-3",0.5,3
+"121",51,2009-09-01,2.5,"No",NA,"no data","Yes",2009-12-28,1.8,"",NA,NA,"Yes",2010-04-21,4.4,2010-09-05,"Present (Not Resected)",NA,2.5,"100sto1000s",1.5,"3.5-3.5",3.5,3.5
+"122",70,2010-06-24,2,"No",0.4,"x","Yes",2010-09-22,3.1,"",NA,NA,"",NA,NA,2010-10-13,"Present (Not Resected)",NA,1.7,"011to100",1,"0.5-1.5",0.5,1.5
+"124",74,2010-07-26,2,"No",13.6,"x","No",2010-08-11,NA,"",NA,NA,"Yes",2010-08-11,14,2010-10-23,"Present (Not Resected)",NA,3,"011to100",5,"1.0-14",1,14
+"125",69,2010-11-11,3,"No",2.5,"0.5-2.5","No",NA,NA,"",NA,NA,"no data",NA,NA,2010-11-28,"Present (Not Resected)",NA,3,"100sto1000s",2.5,"0.5-2.5",0.5,2.5
+"128",75,2010-04-01,3,"No",NA,"x","No",2010-10-26,3,"No",2010-10-26,NA,"No",NA,NA,2010-12-14,"Present (Not Resected)",NA,3.5,"000to10",NA,NA,NA,NA
+"129",55,2009-09-01,1.6,"No",NA,"","Yes",2009-10-26,2.6,"Yes",NA,NA,"no data",NA,NA,2010-12-22,"Present (Not Resected)",NA,3.5,"100sto1000s",1.5,"0.5-2.5",0.5,2.5
+"132",79,2010-04-15,3,"No",NA,"no data","no data",NA,NA,"no data",NA,NA,"no data",NA,NA,2011-02-19,"Present (Not Resected)",NA,4.5,"011to100",2,"0.5-3",0.5,3
