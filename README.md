@@ -4,7 +4,7 @@
 -  While holding the explanatory variables at mean (or baseline) values, the expected mean `Score` (response variable) is around `6.4693e-01 *100 =64.7`.
 -  As per this model, it would be unacceptably erroneous to conclude that explanatory variables such as `year` or `category` of institutions (e.g., whether `NIT` or the first-five IITs `IIT5`) have significant impact on `Score` (response).
 -  Unit rise in count of Consultancy Projects `Cprojects` is associated with around `-1.2678e-04 *100` impact on `Score`. In contrast to that adverse impact, unit rise in count of Consultancy Organizations `Corgs` associates with `1.9670e-04 *100` impact. So, more (Consultancy) Organizations with fewer Projects may be preferred, unless institutions make any (`Cprojects`-related) adverse-impact linkages (on `Score`) disappear. Unit rise in count of Sponsored Research Projects `SRprojects` too shows an adverse impact of about `-1.1249e-04 *100`; so, fewer of those projects, and bigger ones instead, may be preferred.
--  A tenth of a unit (`0.1`) rise in proportion of actual postgraduate students and those pursuing PhD `propPGPhD` associates with a `-2.5978e-01 *100 *0.1` impact, i.e., adverse drop of `Score` by about `2.5978`. In contrast, a tenth of a unit (`0.1`) rise in per-faculty Amounts (in Indian Rs. crore) through Sponsored Research or Consultancy `SRCrevPerFaculty` associates with an expected `Score` rise of about `3.5872e-01 *100 *0.1 =3.5872`.
+-  A tenth of a unit (`0.1`) rise in proportion of actual postgraduate students and those pursuing PhD `propPGPhD` associates with a `-2.5978e-01 *100 *0.1` impact, i.e., adverse drop of `Score` by about `2.5978`. Though less significant, thousand units (`1000`) rise in (count of) actual undergraduate students `UGactualStudents` associates with `-9.1098e-06 *100 *1000 =-0.91098 Score` impact, again adverse. In contrast, a tenth of a unit (`0.1`) rise in per-faculty Amounts (in Indian Rs. crore) through Sponsored Research or Consultancy `SRCrevPerFaculty` associates with an expected `Score` rise of about `3.5872e-01 *100 *0.1 =3.5872`.
 
 The above understanding of the `Estimate` of chosen statistical model's coefficients refers to the following code-session extract and while holding the other explanatory variables at mean (or baseline) values:
 
@@ -55,7 +55,7 @@ AIC: -159.96
 
 Number of Fisher Scoring iterations: 2
 ```
-The corresponding Jupyter Notebook with `R` code and session output is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Aug26-1518.ipynb). For NIRF details, the reader may refer to [Summary of Ranking Parameters and Weightages](https://www.nirfindia.org/nirfpdfcdn/2022/framework/Engineering.pdf).
+The corresponding Jupyter Notebook with `R` code and session output is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Aug26-1518.ipynb). For NIRF details, the reader may refer to [Summary of Ranking Parameters and Weightages](https://www.nirfindia.org/nirfpdfcdn/2022/framework/Engineering.pdf). The interested reader who wishes to extend this study could (a) include quality of research publications, e.g., via citations, (b) adjust for past years' `Score`, and (c) include more institutions.
 
 
 ## Survival Analyses and Optimization (for Student Learners)
