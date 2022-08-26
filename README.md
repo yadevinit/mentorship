@@ -8,7 +8,7 @@
 
 The above understanding of the `Estimate` of chosen statistical model's coefficients refers to the following code-session extract and while holding the other explanatory variables at mean (or baseline) values:
 
-```r
+```{r}
 [1] "Inference with this robust sandwich covar-matrix estimator while using Poisson means (and underestimated var)."
 
 z test of coefficients:
