@@ -1,6 +1,9 @@
 # mentorship
 ## Deeper Learning from Top-20 Institutions
-TBD. 
+[NIRF2022](https://www.nirfindia.org/2022/EngineeringRanking.html) ranks India's Engineering institutions. Beyond the ranks, what can that data teach us? This [author](mailto:yadevinit@gmail.com) attempts an answer by (a) manually compiling recent years' data for the top-20 institutions and (b) statistically analyzing that. The following is a code-session extract from the statistical-modeling exercise. For the institutions, here's what it means:
+-  While holding the explanatory variables at mean (or baseline) values, the expected mean `Score` is `6.4693e-01 *100=64.7`.
+-  TBD.
+
 ```r
 [1] "Inference with this robust sandwich covar-matrix estimator while using Poisson means (and underestimated var)."
 
@@ -48,7 +51,7 @@ AIC: -159.96
 
 Number of Fisher Scoring iterations: 2
 ```
-The corresponding Jupyter Notebook with `R` code and session output is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Aug26-1518.ipynb).
+The corresponding Jupyter Notebook with `R` code and session output is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Aug26-1518.ipynb). For NIRF details, the reader may refer [Summary of Ranking Parameters and Weightages](https://www.nirfindia.org/nirfpdfcdn/2022/framework/Engineering.pdf).
 
 ## Survival Analyses and Optimization (for Students)
 The [author](mailto:yadevinit@gmail.com) initiated this while being an Alumni Mentor for undergraduate students with [IIT (BHU) Varanasi, India](https://saic.iitbhu.ac.in/) in 2022. What is shared here for all is as a record of real work done and to offer curated learning pathways of staged complexity, specifically: (a) a Mentee who had done "dashboard analytics" and never did such ("data science") analyses overcame that "barrier" and completed the work in couple of weeks and (b) another Mentee who had done Deep Learning and competitive programming (and given up on cancer prognostication) took on outperforming a Nature research publication (of 2019); he completed an analysis using a "shallower" Machine Learning, got renewed breadth and depth of the related biomedical domain, and learnt from peers sharing their "shallower" statistical analyses on the same or similar datasets. Personally for this author as Mentor, his father-in-law passed away just as interaction began with the first Mentee, and his dog passed away few months later just after concluding interaction with the same Mentee; such coincidences in the wake of the COVID-19 epidemic could serve as a reminder of how we have *survived* all along and how precious life is, which we sometimes take for granted. The following two distinct analyses also got integrated as the Mentees and Mentor observed that optimization gets used in Survival and other types of analyses.
