@@ -64,4 +64,4 @@ AIC: -192.3
 Number of Fisher Scoring iterations: 2
 ```
 
-The corresponding (updated) Jupyter Notebook with `R` code and session output is at [inNIRF.ipynb](./worldClass/inNIRF-2022Sept01-2249.ipynb). The interested reader may extend this project, e.g., by properly reducing the factors that institutions need to consider for raising `Score`.
+The corresponding (updated) Jupyter Notebook with `R` code and session output is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Sept01-2249.ipynb). The interested reader may extend this project, e.g., by properly reducing the factors that institutions need to consider for raising `Score`.
