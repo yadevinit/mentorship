@@ -1,4 +1,4 @@
-# Deeper Learning from Top 20 (for Higher-Education Institutions 2022-Aug)
+# Deeper Learning from Top 20 (2022-Aug)
 [NIRF2022](https://www.nirfindia.org/2022/EngineeringRanking.html) ranks India's Engineering institutions. Beyond the ranks, what can that data teach us? This [author](mailto:yadevinit@gmail.com) attempts an answer by (a) manually compiling recent years' data for the top-20 institutions and (b) statistically modeling that using `Score` as response variable. (To quickly recall, the highest `Score` between `0` and `100` is what's ranked `1`.) For use by institutional stakeholders, here is an understanding of the `Estimate` of a chosen statistical model's coefficients, which refers to the code-session extract included further ahead:
 -  While holding the explanatory variables at mean (or baseline) values, the expected mean `Score` (response variable) is around `6.4693e-01 *100 =64.7`.
 -  As per this model, it would be unacceptably erroneous to conclude that explanatory variables such as `year` or `category` of institutions (e.g., whether `NIT` or the first-five IITs `IIT5`) have significant impact on `Score` (response).
