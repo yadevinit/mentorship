@@ -6,6 +6,8 @@
     >    a replacement for Microsoft Academic Graph (MAG), a free alternative to subscription-based platforms such as Scopus, Dimensions and Web of Science.
 -  [Deeper Learning from Top 20 (2022-Aug)](./READMEdeeperTop.md).
 
+For NIRF details, the reader may refer to [Summary of Ranking Parameters and Weightages](https://www.nirfindia.org/nirfpdfcdn/2022/framework/Engineering.pdf).
+
 
 ## Survival Analyses and Optimization (for Student Learners)
 Refer [link](./READMEsurvOpt.md).
