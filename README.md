@@ -1,7 +1,8 @@
 # mentorship
 ## Deeper Learning from Top 20 (for Higher-Education Institutions)
 [NIRF2022](https://www.nirfindia.org/2022/EngineeringRanking.html) ranks India's Engineering institutions. Beyond the ranks, what can that data teach us? This [author](mailto:yadevinit@gmail.com) attempts an answer by (a) manually compiling recent years' data for the top-20 institutions, (b) joining that with institution-wise research-performance data, and (c) statistically modeling that using `Score` as response variable. (To quickly recall, the highest `Score` between `0` and `100` is what's ranked `1`.) For use by institutional stakeholders, the following sub-projects---with recent ones listed first---create various statistical models and help understand the `Estimate` of chosen statistical model's coefficients, which refer to code-session extracts included within:
--  [Deeper Learning with Research Data from Top 20 (2022-Sept)](./READMEdeeperResearchTop.md). It uses [Research Organization Registry](https://ror.org/) identifier `ror` as key to join earlier-fetched research-performance data with NIRF data.
+-  [Parsimonious Deeper Learning with Research Data from Top 20 (2022-Sept-03)](./READMEdeeperParsimonyResearchTop.md).
+-  [Deeper Learning with Research Data from Top 20 (2022-Sept-02)](./READMEdeeperResearchTop.md). It uses [Research Organization Registry](https://ror.org/) identifier `ror` as key to join earlier-fetched research-performance data with NIRF data.
 -  [Fetching Research Data](./worldClass/researchLio-2022Sept01-1041.ipynb) on publications and citations after news that [Massive open index of scholarly papers launches](https://www.nature.com/articles/d41586-022-00138-y) [`OpenAlex`](https://openalex.org/):
     >    a replacement for Microsoft Academic Graph (MAG), a free alternative to subscription-based platforms such as Scopus, Dimensions and Web of Science.
 -  [Deeper Learning from Top 20 (2022-Aug)](./READMEdeeperTop.md).
