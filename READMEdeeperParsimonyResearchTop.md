@@ -1,4 +1,4 @@
-# Parsimonious Deeper Learning with Research Data from Top 20 (2022-Sept-03)
+# Parsimonious Deeper Learning with Research Data from Top 20 (2022-Sept-05)
 Building on earlier analyses, this [author](mailto:yadevinit@gmail.com) here attempts parsimonious regression by properly reducing the factors that institutions need to consider for raising `Score`. This uses [PLSR and PCR](http://www.science.smith.edu/~jcrouser/SDS293/labs/lab11-r.html): Partial Least Squares (or Projection onto Latent Structures) Regression and Principal Components Regression. Here are the highlights:
 -  Response `Score` and over 25 variables have been standardized so that their (unit) impacts can be numerically compared. About 90% of their variance is explained by "latent" components, as per the chosen count of 5 components.
 -  Under the headings ahead, the code-session extracts shrink the component-wise variables to show only those with greater impact from their `loadings`. This is for readably assisting institutional stakeholders to re-orient their strategies considering expected impact of (latent components of) variables. Here's a guide to interpret those components as per PLSR extract, unless stated otherwise:
@@ -8,13 +8,18 @@ Building on earlier analyses, this [author](mailto:yadevinit@gmail.com) here att
    +    `Comp 4` impacts positively via count of Consultancy Organizations `Corgs` and projects `Cprojects`. `PGactualStudents` impacts negatively.
    +    `Comp 5` positively impacts via Citations per Work `TCperWork2021` (and `TCperWork2022`) and Count of Citations `TC2021`.
    +    PCR-identified `Comp 5` negatively clubs (a) (highlighted) count of Works per faculty `works2022perFaculty`---"publication productivity" across 3 years lagged by 2 years---with (b) the count of publications `works_count2021` (and `works_count2022`, across all faculty for each given institution). Their negative `loadings` indicate their adverse impact on `Score`. In contrast within the same component, unit rise in Citations per Work `TCperWork2021` (and `TCperWork2022`) positively impacts `Score`, just as in PLSR-identified `Comp 5`.
+-  Under the headings ahead, there are also plots of (regression) coefficients for each explanatory variable.
+   +   The PLSR coefficients' plot shows biggest (standardized) impact from: `works2022perFaculty: -0.0133 FROseminars: -0.012 UGactualStudents: -0.0105 SRagencies: 0.0133 propPhD: 0.0171 PhDpursuing: 0.0172`.
+   +   The PCR coefficients' plot shows biggest impact from: `Cprojects: -0.0044 Corgs: -0.0036 UGactualStudents: -0.0022 SRamount: 0.0084 SRprojects: 0.0086 FROmtce: 0.0092`.
 
-The code sessions have been extracted from an (updated) Jupyter Notebook with `R` code which is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Sept03-1811.ipynb) with complete session output. Regarding [Works](https://docs.openalex.org/):
+The code sessions have been extracted from an (updated) Jupyter Notebook with `R` code which is at [`inNIRF.ipynb`](./worldClass/inNIRF-2022Sept05-1813.ipynb) with complete session output. Regarding [Works](https://docs.openalex.org/):
 
 >    Works are papers, books, datasets, etc; they *cite* other works.
 
 ## PLSR Extract
 ![](./worldClass/PLSRcomps.png)
+![](./worldClass/pls_fit2plotXcoef.png)
 
 ## PCR Extract
 ![](./worldClass/PCRcomps.png)
+![](./worldClass/pcr_fit2plotXcoef.png)
