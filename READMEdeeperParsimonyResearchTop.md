@@ -1,4 +1,4 @@
-# Parsimonious Deeper Learning with Research Data of Top 20 (2022-Sept-05)
+# Parsimonious Deeper Learning with Research Data from Top 20 (2022-Sept-05)
 Building on earlier analyses, this [author](mailto:yadevinit@gmail.com) here attempts parsimonious regression by properly reducing the factors that institutions need to consider for raising `Score`. This uses [PLSR and PCR](http://www.science.smith.edu/~jcrouser/SDS293/labs/lab11-r.html): Partial Least Squares (or Projection onto Latent Structures) Regression and Principal Components Regression. Here are the highlights:
 
 1.    Response `Score`---expressed on scale of `0` to `1`---and over 25 variables have been standardized so that their (unit) impacts can be numerically compared. About 90% of their variance is explained by "latent" components, as per the chosen count of 5 components.
