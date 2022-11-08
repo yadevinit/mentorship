@@ -53,7 +53,7 @@ pairDist <- function(df1, longLat=cLongLat){
 
   return(ans2)
 }
-mapTour <- function(tour, df1, fName, longLat=cLongLat, proj4string="+proj=longlat +datum=WGS84",
+mapTour <- function(tour, df1, charTitle, longLat=cLongLat, proj4string="+proj=longlat +datum=WGS84",
   xlim=c(-166,-47), ylim=c(15,83)){
   # adapted from https://cran.r-project.org/package=TSP.
 
@@ -80,7 +80,7 @@ mapTour <- function(tour, df1, fName, longLat=cLongLat, proj4string="+proj=longl
   plot(tour_line, add=TRUE, col="red")
   points(USCA312_coords, pch=3, cex=0.4, col="black")
   text(USCA312_coords, label=tour) # INGUJ.df[, cLongLat]
-  title(main=fName)
+  title(main=charTitle)
   # > plot(df1[,c("lat","long")])
   # > points(df1[,c("lat","long")], pch=as.character(1:nrow(df1)), cex=1, col="red") # Beware: drops digits >9!
   return()
@@ -146,6 +146,21 @@ map_country <- function(country, x_limits = NULL, y_limits = NULL){
 ## Test the function with a different country
 # map_country("Germany", c(-2, 22), c(47, 55))
 # map_country("India", c(65, 100), c(5, 35))
+which.FUN.mx <- function(fn, mx){
+    whats.fn <- do.call(fn, list(mx))
+    ij.mx <- which(mx == whats.fn, arr.ind=TRUE) # Beware: this can return a matrix of indices!
+    return(ij.mx)
+}
+edgeDist.max <- function(tour, tsp.mx){
+  tour.edges <- matrix(c(tour, c(tour[-1], tour[1])), nrow=length(tour), ncol=2)
+  # distances between adjacent nodes on tour.
+  str(tour.edges)
+  te.dist <- apply(tour.edges, MARGIN=1, FUN=function(ijVec){ tsp.mx[ijVec[1], ijVec[2]] })
+  str(te.dist)
+  tour.edges.dist <- cbind(tour.edges, te.dist)
+  ans <- tour.edges.dist[which.max(tour.edges.dist[, "te.dist"]),]
+  return(ans)
+}
 
 
 mustInstall <- FALSE
