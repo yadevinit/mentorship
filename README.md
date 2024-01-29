@@ -1,4 +1,7 @@
 # mentorship
+## Migraine Diary Bayesian
+Refer [link](./sevDura/sevDura.md).
+
 ## TSP in Gujarat
 TiPSy? No, that's Traveling Salesperson Problem (TSP) being solved for a [custom Gujarat tour](https://docs.google.com/document/d/1xm_VhIrW8I7KPI3jKdEJNCF0MEOzEFXrFTe42NRU6yk/edit?usp=sharing)---refer heading Option#7 for detailed itinerary (with Google Map routes)---to see what route could have been more optimal. Here's a preliminary [R-code Jupyter Notebook](./TSPinGujarat/TSPinGujarat.ipynb) (with session output appended with "takeaway" inferences) for that. It approximates "cost" as spatial distances between map coordinates of the spots (graph nodes or vertices) visited, including access airports. What's possible next from this combinatorial-optimization analysis is to deal with an issue:
 
