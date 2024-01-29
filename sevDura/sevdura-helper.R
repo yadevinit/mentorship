@@ -945,6 +945,12 @@ loo_compare_ySame <- function(loos, fits.names.sel,
     # [(0.7, 1]   (bad)        2    0.6%   109 ... See help('pareto-k-diagnostic') for details.]
     # [Diagnostics for Pareto smoothed importance sampling (PSIS)]
     # loo::pareto_k_ids(loos[["sev09.02.1"]]) # [[1] 315 331] observations
+    
+    # https://cran.r-project.org/web/packages/loo/vignettes/loo2-example.html#computing-psis-loo-and-checking-diagnostics:
+    # [loo gives us warnings about the Pareto diagnostics, which indicate that
+    # for some observations the leave-one-out posteriors are different enough
+    # from the full posterior that importance-sampling is not able to correct
+    # the difference.]
     lapply(finsel.ySame.j, FUN=function(finsel.ySame.j.i){ # added 2024Jan27
       loos.j.i <- loos[[finsel.ySame.j.i]]
       pkids.j.i <- loo::pareto_k_ids(loos.j.i)

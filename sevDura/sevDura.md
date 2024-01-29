@@ -1,7 +1,7 @@
 Migraine Diary Bayesian
 ================
 <yadevinit@gmail.com>
-last revised 2024-January-28 at 14:32
+last revised 2024-January-29 at 17:49
 
 ## Synopsis
 
@@ -67,7 +67,11 @@ selected models:
     - consulting domain expertise for different priors, e.g., for
       `b_hu_prophylaxis8Top50x101_sosNaxRiz`,
     - dealing with the observations identified through (Pareto smoothed
-      importance sampling) PSIS diagnostics,
+      importance sampling) PSIS diagnostics, which seem to transition
+      suddenly from or to high severity,
+    - explaining the substantially-different (nil-headache) probability
+      estimates for `3Ami37x001` given by the `sev09.` and `sev02.`
+      models here,
     - testing specific hypotheses, e.g., whether any particular
       `prophylaxis` regime is indeed better than other regimes, and if
       so, to what extent,
@@ -106,7 +110,7 @@ c.patn.n <- c("^sev02[.]02.*", "^sev09[.]02.*", "^sev02[.]02.*|^sev09[.]02.*")
 source(file.path(cRoot, "sevdura.R"))
 ```
 
-    ## [1] "Sun Jan 28 14:32:31 2024"
+    ## [1] "Mon Jan 29 17:49:27 2024"
 
     ## Loading required package: ggplot2
 
@@ -561,7 +565,7 @@ source(file.path(cRoot, "sevdura.R"))
 date()
 ```
 
-    ## [1] "Sun Jan 28 14:39:26 2024"
+    ## [1] "Mon Jan 29 17:56:15 2024"
 
 ``` r
 sessionInfo()
